@@ -5,18 +5,22 @@
   box-sizing: border-box;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 .world-map{
   width: 1500px;
   position: relative;
 }
 
 .header {
-  background-color: #965D40;
+  background-color: #413E39;
   color: #F6D3A6;
   padding: 15px;
   width: 1500px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Special Elite', cursive;
 }
 
 .panda-pin{
