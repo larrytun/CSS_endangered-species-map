@@ -15,7 +15,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 20px;
-  color: #F6D3A6
+  /*color: #F6D3A6*/
+  color: rgb(253, 157, 58);
 }
 
 .description {
@@ -26,6 +27,7 @@ body {
   margin-bottom: 10px;
   text-align: center;
   margin-top: -15px;
+  color: #F6D3A6;
 }
 
 .world-map{
@@ -43,16 +45,29 @@ body {
   text-align: center;
   font-family: 'Special Elite', cursive;
   position: fixed;
+  padding-bottom: 56px;
 }
 
 .header h1 {
   font-size: 3em;
-  margin-bottom: -12px;
+  margin-bottom: -18px;
+  border-top: 1px solid #F6D3A6;
+  width: 660px;
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+  margin-top: 20px;
 }
 
 .header h5 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  border-bottom: 1px solid #F6D3A6;
+  width: 660px;
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  color: rgb(253, 157, 58);
 }
 
 .panda-pin{
@@ -69,15 +84,15 @@ body {
 }
 
 .panda-pin .hidden-panda, .asiatic-lion-pin .hidden-lion, .bison-pin .hidden-bison, .cheetah-pin .hidden-cheetah, .monk-seal-pin .hidden-monk, .humpback-pin .hidden-humpback, .maned-wolf-pin .hidden-wolf, .Numbat-pin .hidden-numbat {
-    visibility: hidden;
-    width: 300px;
-    background-color: #413E39;
-    color: #fff;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    top: -350px;
-    left: 50px;
+  visibility: hidden;
+  width: 300px;
+  background-color: #413E39;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  top: -350px;
+  left: 50px;
 }
 
 .asiatic-lion-pin {
