@@ -64,11 +64,11 @@ body {
   z-index: 1;
 }
 
-.panda-pin:hover .hidden-panda, .asiatic-lion-pin:hover .hidden-lion, .bison-pin:hover .hidden-bison, .cheetah-pin:hover .hidden-cheetah, .monk-seal-pin:hover .hidden-monk, .humpback-pin:hover .hidden-humpback {
+.panda-pin:hover .hidden-panda, .asiatic-lion-pin:hover .hidden-lion, .bison-pin:hover .hidden-bison, .cheetah-pin:hover .hidden-cheetah, .monk-seal-pin:hover .hidden-monk, .humpback-pin:hover .hidden-humpback, .maned-wolf-pin:hover .hidden-wolf, .Numbat-pin:hover .hidden-numbat {
   visibility: visible;
 }
 
-.panda-pin .hidden-panda, .asiatic-lion-pin .hidden-lion, .bison-pin .hidden-bison, .cheetah-pin .hidden-cheetah, .monk-seal-pin .hidden-monk, .humpback-pin .hidden-humpback {
+.panda-pin .hidden-panda, .asiatic-lion-pin .hidden-lion, .bison-pin .hidden-bison, .cheetah-pin .hidden-cheetah, .monk-seal-pin .hidden-monk, .humpback-pin .hidden-humpback, .maned-wolf-pin .hidden-wolf, .Numbat-pin .hidden-numbat {
     visibility: hidden;
     width: 300px;
     background-color: #413E39;
@@ -131,7 +131,7 @@ body {
   left: 490px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 1;
+  z-index: 2;
 }
 
 .Numbat-pin{
@@ -140,5 +140,5 @@ body {
   left: 1140px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 1;
+  z-index: 2;
 }
