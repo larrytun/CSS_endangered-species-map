@@ -20,7 +20,7 @@ body {
 
 .description {
   font-family: 'Open Sans', sans-serif;
-  width: 225px;
+  width: 230px;
   display: block;
   margin: auto;
   margin-bottom: 10px;
@@ -61,21 +61,23 @@ body {
   left: 1090px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 2;
+  z-index: 1;
 }
 
-.panda-pin:hover .hidden-panda {
+.panda-pin:hover .hidden-panda, .asiatic-lion-pin:hover .hidden-lion, .bison-pin:hover .hidden-bison, .cheetah-pin:hover .hidden-cheetah, .monk-seal-pin:hover .hidden-monk, .humpback-pin:hover .hidden-humpback {
   visibility: visible;
 }
 
-.panda-pin .hidden-panda {
+.panda-pin .hidden-panda, .asiatic-lion-pin .hidden-lion, .bison-pin .hidden-bison, .cheetah-pin .hidden-cheetah, .monk-seal-pin .hidden-monk, .humpback-pin .hidden-humpback {
     visibility: hidden;
     width: 300px;
     background-color: #413E39;
     color: #fff;
     border-radius: 6px;
     padding: 5px 0;
-    position: fixed;
+    position: absolute;
+    top: -350px;
+    left: 50px;
 }
 
 .asiatic-lion-pin {
@@ -84,7 +86,7 @@ body {
   left: 810px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 2;
+  z-index: 1;
 }
 
 .bison-pin {
@@ -102,28 +104,28 @@ body {
   left: 780px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 1;
+  z-index: 2;
 }
 
-.monk-seal-pin{
+.monk-seal-pin {
   position: absolute;
   top: 670px;
   left: 83px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 2;
+  z-index: 3;
 }
 
-.humpback-pin{
+.humpback-pin {
   position: absolute;
   top: 1000px;
   left: 200px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
-  z-index: 1;
+  z-index: 3;
 }
 
-.maned-wolf-pin{
+.maned-wolf-pin {
   position: absolute;
   top: 820px;
   left: 490px;
