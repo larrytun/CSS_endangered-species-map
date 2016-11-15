@@ -9,9 +9,30 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.species {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #F6D3A6
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  width: 225px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: -15px;
+}
+
 .world-map{
   width: 1500px;
   position: relative;
+  z-index: 0;
+  margin-top: 140px;
 }
 
 .header {
@@ -21,52 +42,101 @@ body {
   width: 1500px;
   text-align: center;
   font-family: 'Special Elite', cursive;
+  position: fixed;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: -12px;
+}
+
+.header h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 .panda-pin{
   position: absolute;
   top: 650px;
   left: 1090px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 2;
 }
 
-.asiatic-lion-pin{
+.panda-pin:hover .hidden-panda {
+  visibility: visible;
+}
+
+.panda-pin .hidden-panda {
+    visibility: hidden;
+    width: 300px;
+    background-color: #413E39;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: fixed;
+}
+
+.asiatic-lion-pin {
   position: absolute;
   top: 585px;
   left: 810px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 2;
 }
 
-.bison-pin{
+.bison-pin {
   position: absolute;
   top: 535px;
   left: 280px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 3;
 }
 
-.cheetah-pin{
+.cheetah-pin {
   position: absolute;
   top: 700px;
   left: 780px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 1;
 }
 
 .monk-seal-pin{
   position: absolute;
   top: 670px;
   left: 83px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 2;
 }
 
 .humpback-pin{
   position: absolute;
   top: 1000px;
   left: 200px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 1;
 }
 
 .maned-wolf-pin{
   position: absolute;
   top: 820px;
   left: 490px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 1;
 }
 
 .Numbat-pin{
   position: absolute;
   top: 905px;
   left: 1140px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  z-index: 1;
 }
