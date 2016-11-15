@@ -1,0 +1,68 @@
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.world-map{
+  width: 1500px;
+  position: relative;
+}
+
+.header {
+  background-color: #965D40;
+  color: #F6D3A6;
+  padding: 15px;
+  width: 1500px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.panda-pin{
+  position: absolute;
+  top: 650px;
+  left: 1090px;
+}
+
+.asiatic-lion-pin{
+  position: absolute;
+  top: 585px;
+  left: 810px;
+}
+
+.bison-pin{
+  position: absolute;
+  top: 535px;
+  left: 280px;
+}
+
+.cheetah-pin{
+  position: absolute;
+  top: 700px;
+  left: 780px;
+}
+
+.monk-seal-pin{
+  position: absolute;
+  top: 670px;
+  left: 83px;
+}
+
+.humpback-pin{
+  position: absolute;
+  top: 1000px;
+  left: 200px;
+}
+
+.maned-wolf-pin{
+  position: absolute;
+  top: 820px;
+  left: 490px;
+}
+
+.Numbat-pin{
+  position: absolute;
+  top: 905px;
+  left: 1140px;
+}
